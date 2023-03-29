@@ -15,6 +15,7 @@ body {
     width: 100%;
     height:0% ;
     background-color: white;
+    position: fixed;
 }
 
 .wrapper {
@@ -111,6 +112,7 @@ body {
 
 .image-container {
     position: relative;
+    z-index: -1;
 }
   
 img {
@@ -118,6 +120,8 @@ img {
     height: 448px;
     margin-bottom: 10px;
     filter: brightness(30%)
+    
+    
 }
   
 .image-container .tek1 {
@@ -174,14 +178,18 @@ img {
 /* start konten kemampuan disabilitas */
 
 .bungkus {
-    display: inline-block;
+    display: flex;
     background-color: aqua;
     width: 520px;
-    height: 328px;
-    margin-top: 40px;
-    margin-left: 40px;
+    height: 360px;
+    margin: 40px 0px 0px 120px;
 
 }
+
+.display-flex {
+    display: flex;
+}
+
  .tek3 {
     font-family: 'popins';
     font-size: 38px;
@@ -206,18 +214,19 @@ img {
     color: aliceblue;
     width: 255px;
     height: 88px;
-    right: 521px;
+    right: 624px;
     padding: 20px;
     margin-left: 40px;
 }
 
 .rr {
-    
-    width: 200px;
-    height: 200px;
-    right: 10px;
-    margin-left: 40px;
-    padding-top: 50px;
+    position: absolute;
+    width: 430px;
+    height: 460px;
+    right: 30px;
+    margin-right: 120px;
+    padding-top: 32px;
+    top: 720px;
 }
 
 
