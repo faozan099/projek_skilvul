@@ -16,6 +16,7 @@ body {
     height:0% ;
     background-color: white;
     position: fixed;
+    z-index: 3;
 }
 
 .wrapper {
@@ -30,7 +31,7 @@ body {
     width: 100%;
     height:28px;
     
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0, 7, 15, 0 rgb(0, 0, 0, 0.5)
 }
 
@@ -181,7 +182,7 @@ img {
     display: flex;
     background-color: aqua;
     width: 520px;
-    height: 360px;
+    height: 340px;
     margin: 40px 0px 0px 120px;
 
 }
@@ -213,10 +214,12 @@ img {
     position: absolute;
     color: aliceblue;
     width: 255px;
-    height: 88px;
-    right: 624px;
+    height: 100px;
+    right: 622px;
     padding: 20px;
     margin-left: 40px;
+    border: 5px solid;
+    justify-content: center;
 }
 
 .rr {
@@ -227,9 +230,56 @@ img {
     margin-right: 120px;
     padding-top: 32px;
     top: 720px;
+    z-index: -1;
 }
 
+.bungkus1 {
+    display: block;
+    background-color: deeppink;
+    margin-left: 120px;
+    width: 520px;
+    height: 424px;
+    border-radius: 60px 0px 0px 0px;
+}
 
+.b1 {
+    font-family: popins;
+    font-size: 18px;
+    padding-left: 16px;
+    padding-top: 40px;
+    font-size: 16px;
+    color: blue;
+}
 
+.b2 {
+    font-family: popins;
+    font-size: 32px;
+    padding-left: 28px;
+    padding-right: 88px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.b3 {
+    font-family: popins;
+    font-size: 20px;
+    padding-left: 28px;
+    padding-right: 88px;
+}
+
+button {
+    font-size: 12px;
+    font-family: popins;
+    border-radius: 50px 50px 50px 50px;
+    width: 120px;
+    padding: 3px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    left: 372px;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    position: absolute;
+}
 
   
